@@ -1,0 +1,21 @@
+cabal-version:      2.4
+name:               aoc2022
+version:            0.1.0.0
+synopsis:
+
+-- A longer description of the package.
+-- description:
+homepage:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+license:            MPL-2.0
+license-file:       LICENSE
+author:             samtoth
+maintainer:         sam@toth.co.uk
+
+
+executable day1
+    build-depends:    base ^>=4.15.1.0
+    hs-source-dirs:   src
+    default-language: Haskell2010
