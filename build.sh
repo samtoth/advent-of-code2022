@@ -1,0 +1,1 @@
+nix-build -A aoc2022.components.exes.aoc2022
