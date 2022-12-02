@@ -17,9 +17,11 @@ maintainer:         sam@toth.co.uk
 executable aoc2022
     build-depends:    base
                     , optparse-generic
+                    , megaparsec
+                    , text
     hs-source-dirs:   ./src/
     main-is:          Main.lhs
-    other-modules:    Day1
+    other-modules:    Day1, Day2
     default-extensions: TypeApplications
                       , DerivingStrategies
                       , TypeOperators

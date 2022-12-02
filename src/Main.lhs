@@ -10,6 +10,7 @@ import GHC.Generics (Generic)
 import Options.Generic
 import Control.Monad (forM)
 import System.Exit (exitSuccess, exitFailure)
+import qualified Day2 as D2
 
 main :: IO ()
 main = runHarness $ challenges
@@ -64,6 +65,7 @@ reportErrors (All False) = putStr "Some errors occurred - see above" >> exitFail
 challenges :: AOC
 challenges = [
        AOCDay D1.part1 D1.part2
+     , AOCDay D2.part1 D2.part2
        ]
 
 \end{code}
