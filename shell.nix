@@ -3,6 +3,7 @@
         cabal = "latest";
         hlint = "latest";
         haskell-language-server = "latest";
+        markdown-unlit = "latest";
     };
     
     withHoogle = true;

@@ -1,4 +1,4 @@
-\begin{code}
+```haskell
 module Day2  where
 import Data.Monoid (Sum(..))
 import Control.Arrow ((&&&))
@@ -84,4 +84,4 @@ chooseDraw (Scissors, Loss) = Paper
 part2 :: String -> String
 part2 = maybe "parse failed" show . fmap (score . fmap (fst &&& chooseDraw)) . parseMaybe stratsP . T.pack
 
-\end{code}
+```

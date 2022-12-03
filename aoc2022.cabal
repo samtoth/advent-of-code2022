@@ -19,9 +19,11 @@ executable aoc2022
                     , optparse-generic
                     , megaparsec
                     , text
+                    , split
     hs-source-dirs:   ./src/
     main-is:          Main.lhs
-    other-modules:    Day1, Day2
+    other-modules:    Day1, Day2, Day3
+    ghc-options:      -pgmL markdown-unlit
     default-extensions: TypeApplications
                       , DerivingStrategies
                       , TypeOperators
