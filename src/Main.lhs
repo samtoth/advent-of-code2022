@@ -1,11 +1,12 @@
  # Advent of code 2022
 
-Welcome to my 2022 advent of code mini blog. This is my first year doing the challenge and I am going to be working through it all in haskell. 
+Welcome to my 2022 advent of code solutions. This is my first year doing the challenge and I am going to be working through it all in haskell. 
 With the aim of trying to write well structured and readable code. 
 
 Note that the following language extensions are applied to the project globally:
 
  * TypeApplications
+ * LambdaCase
  * DerivingStrategies
  * TypeOperators
  * DataKinds
@@ -30,6 +31,7 @@ import qualified Day1 as D1
 import qualified Day2 as D2
 import qualified Day3 as D3
 import qualified Day4 as D4
+import qualified Day5 as D5
 ```
 
 To begin with i'm going to write a simple harness for running the challenges on the input - as well as verifying the tests given in introductory text.
@@ -47,6 +49,7 @@ challenges = [
      , AOCDay D2.part1 D2.part2
      , AOCDay D3.part1 D3.part2
      , AOCDay D4.part1 D4.part2
+     , AOCDay D5.part1 D5.part2
      ]
 ```
 
