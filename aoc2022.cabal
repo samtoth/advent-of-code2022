@@ -22,7 +22,7 @@ executable aoc2022
                     , split
     hs-source-dirs:   ./src/
     main-is:          Main.lhs
-    other-modules:    Day1, Day2, Day3
+    other-modules:    Day1, Day2, Day3, Day4
     ghc-options:      -pgmL markdown-unlit
     default-extensions: TypeApplications
                       , DerivingStrategies

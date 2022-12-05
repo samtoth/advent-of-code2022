@@ -22,13 +22,14 @@ Note that the following language extensions are applied to the project globally:
 module Main where
 
 import Data.Word (Word16)
-import GHC.Generics (Generic)
+import GHC.Generics (Generic, D)
 import Options.Generic
 import Control.Monad (forM)
 import System.Exit (exitSuccess, exitFailure)
 import qualified Day1 as D1
 import qualified Day2 as D2
 import qualified Day3 as D3
+import qualified Day4 as D4
 ```
 
 To begin with i'm going to write a simple harness for running the challenges on the input - as well as verifying the tests given in introductory text.
@@ -45,6 +46,7 @@ challenges = [
        AOCDay D1.part1 D1.part2
      , AOCDay D2.part1 D2.part2
      , AOCDay D3.part1 D3.part2
+     , AOCDay D4.part1 D4.part2
      ]
 ```
 
@@ -105,4 +107,8 @@ main :: IO ()
 main = runHarness $ challenges
 ```
 
-[On to day 1](Day1.md)
+[On to day 1](doc/Day1.md)
+[Day 2](doc/Day2.md)
+[Day 3](doc/Day3.md)
+[Day 4](doc/Day4.md)
+[Day 5](doc/Day5.md)

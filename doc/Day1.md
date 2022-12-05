@@ -1,12 +1,5 @@
 [Day 1 official page](https://adventofcode.com/2022/day/1)
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
 
 ```haskell
 module Day1 (part1, part2) where
