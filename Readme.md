@@ -32,6 +32,7 @@ import qualified Day2 as D2
 import qualified Day3 as D3
 import qualified Day4 as D4
 import qualified Day5 as D5
+import qualified Day6 as D6
 ```
 
 To begin with i'm going to write a simple harness for running the challenges on the input - as well as verifying the tests given in introductory text.
@@ -50,6 +51,7 @@ challenges = [
      , AOCDay D3.part1 D3.part2
      , AOCDay D4.part1 D4.part2
      , AOCDay D5.part1 D5.part2
+     , AOCDay D6.part1 D6.part2
      ]
 ```
 
@@ -115,3 +117,4 @@ main = runHarness $ challenges
 [Day 3](doc/Day3.md)
 [Day 4](doc/Day4.md)
 [Day 5](doc/Day5.md)
+[Day 6](doc/Day6.md)

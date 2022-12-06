@@ -24,7 +24,7 @@ executable aoc2022
                     , ilist
     hs-source-dirs:   ./src/
     main-is:          Main.lhs
-    other-modules:    Day1, Day2, Day3, Day4, Day5
+    other-modules:    Day1, Day2, Day3, Day4, Day5, Day6
     ghc-options:      -pgmL markdown-unlit
     default-extensions: TypeApplications
                       , LambdaCase
