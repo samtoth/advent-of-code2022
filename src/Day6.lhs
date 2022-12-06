@@ -1,20 +1,25 @@
 ```haskell
 module Day6 where
+```
 
+```haskell
 import Data.List
 import Control.Arrow
 import Data.Monoid (Any(..))
+```
 
+```haskell
 windowed :: Int -> [a] -> [[a]]
 windowed n = fmap (take n) . tails
 
 unique :: Eq a => [a] -> Bool
 unique = not . getAny . foldMap Any . fmap (uncurry elem <<< head &&& tail) . uncurry ($) . (take . pred . length &&& tails)
-````
+```
 
+```
 part1 :: String -> String
 part1 = show . (+4). length . takeWhile not . fmap unique . windowed 4 
-
+```
  ## Part 2
 
 
